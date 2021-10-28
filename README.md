@@ -44,7 +44,7 @@ CONTACT : <i>errorazim@gmail.com</i>  <br> <br>
       FACEBOOK ACCOUNT CLONER
 </p>
 
-![20200808_160757](https://github.com/Azim-vau/MODULES/blob/main/Screenshot_20211024-173340_Termux.jpg)
+![20200808_160757](https://github.com/Azim-vau/MODULES/blob/main/Screenshot_20211028-174940_Termux.jpg)
 
 #### INSTALL TOOL ON TERMUX
 ```python2
