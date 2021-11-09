@@ -100,7 +100,7 @@ def banner():
 	
 
 
-def hasil(ok,cp):
+def resu(ok,cp):
     if len(ok) != 0 or len(cp) != 0:
         print '\n\n %s[%s#%s] CRACK COMPLETE...'%(N,K,N)
         print '\n\n [%s+%s] TOTAL OK : %s%s%s'%(O,N,H,str(len(ok)),N)
@@ -398,7 +398,7 @@ class __crack__:
                                     except: pass
 
                             os.remove(self.apk)
-                            hasil(ok,cp)
+                            resu(ok,cp)
                         elif cin == '2':
                             print '\n [%s+%s] OK RESULTS ARE SAVED TO -> RESULTS/OK-%s-%s-%s.txt'%(O,N,ha, op, ta)
                             print ' [%s+%s] CP RESULTS ARE SAVED TO -> RESULTS/CP-%s-%s-%s.txt'%(O,N,ha, op, ta)
@@ -411,7 +411,7 @@ class __crack__:
                                     except: pass
 
                             os.remove(self.apk)
-                            hasil(ok,cp)
+                            resu(ok,cp)
                         elif cin == '3':
                             print '\n [%s+%s] OK RESULTS ARE SAVED TO -> RESULTS/OK-%s-%s-%s.txt'%(O,N,ha, op, ta)
                             print ' [%s+%s] CP RESULTS ARE SAVED TO -> RESULTS/CP-%s-%s-%s.txt'%(O,N,ha, op, ta)
@@ -424,7 +424,7 @@ class __crack__:
                                     except: pass
 
                             os.remove(self.apk)
-                            hasil(ok,cp)
+                            resu(ok,cp)
                         else:
                             print '\n %s[%s×%s] WRONG INPUT BRO!'%(N,M,N);self.__axm__()
                     print '\n [ CHOOSE THE LOGIN METHOD ]\n'
@@ -622,7 +622,7 @@ class __crack__:
                         pass
 
             os.remove(self.apk)
-            hasil(ok,cp)
+            resu(ok,cp)
         elif axm in ('2', '02'):
             print '\n [%s+%s] OK RESULTS ARE SAVED TO -> RESULTS/OK-%s-%s-%s.txt'%(O,N,ha, op, ta)
             print ' [%s+%s] CP RESULTS ARE SAVED TO -> RESULTS/CP-%s-%s-%s.txt'%(O,N,ha, op, ta)
@@ -641,7 +641,7 @@ class __crack__:
                         pass
 
             os.remove(self.apk)
-            hasil(ok,cp)
+            resu(ok,cp)
         elif axm in ('3', '03'):
             print '\n [%s+%s] OK RESULTS ARE SAVED TO -> RESULTS/OK-%s-%s-%s.txt'%(O,N,ha, op, ta)
             print ' [%s+%s] CP RESULTS ARE SAVED TO -> RESULTS/CP-%s-%s-%s.txt'%(O,N,ha, op, ta)
@@ -660,7 +660,7 @@ class __crack__:
                         pass
 
             os.remove(self.apk)
-            hasil(ok,cp)
+            resu(ok,cp)
 
         else:
             print '\n %s[%s×%s] WRONG INPUT'%(N,M,N);self.__pler__()
