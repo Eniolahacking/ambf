@@ -95,7 +95,7 @@ def tod():
 
 def banner():
 	os.system("clear")
-	os.system('echo  "\n\n    ▄▄▄       ███▄ ▄███▓ ▄▄▄▄     █████▒\n   ▒████▄    ▓██▒▀█▀ ██▒▓█████▄ ▓██   ▒ \n   ▒██  ▀█▄  ▓██    ▓██░▒██▒ ▄██▒████ ░ \n   ░██▄▄▄▄██ ▒██    ▒██ ▒██░█▀  ░▓█▒  ░ \n    ▓█   ▓██▒▒██▒   ░██▒░▓█  ▀█▓░▒█░    \n    ▒▒   ▓▒█░░ ▒░   ░  ░░▒▓███▀▒ ▒ ░    \n     ▒   ▒▒ ░░  ░      ░▒░▒   ░  ░      \n     ░   ▒   ░      ░    ░    ░  ░ ░    \n         ░  ░       ░    ░              \n                              ░         \n\n╔═══════════════════════════════════════════╗\n║  Author   : Mahmud Azim                   ║\n║  Github   : https://github.com/Azim-Vau   ║           \n║  Fb       : https://me.fb/AzimVau69       ║           \n╚═══════════════════════════════════════════╝" | lolcat -a -d 2 -8')
+	os.system('echo  "\n\n    ▄▄▄       ███▄ ▄███▓ ▄▄▄▄     █████▒\n   ▒████▄    ▓██▒▀█▀ ██▒▓█████▄ ▓██   ▒ \n   ▒██  ▀█▄  ▓██    ▓██░▒██▒ ▄██▒████ ░ \n   ░██▄▄▄▄██ ▒██    ▒██ ▒██░█▀  ░▓█▒  ░ \n    ▓█   ▓██▒▒██▒   ░██▒░▓█  ▀█▓░▒█░    \n    ▒▒   ▓▒█░░ ▒░   ░  ░░▒▓███▀▒ ▒ ░    \n     ▒   ▒▒ ░░  ░      ░▒░▒   ░  ░      \n     ░   ▒   ░      ░    ░    ░  ░ ░    \n         ░  ░       ░    ░              \n                              ░         \n\n╔═══════════════════════════════════════════╗\n║  Author   : Mahmud Azim                   ║\n║  Github   : https://github.com/Azim-Vau   ║           \n║  Fb       : https://me.fb/AzimVau69       ║           \n╚═══════════════════════════════════════════╝" | lolcat -a -d 2 -s 50')
 	print("")
 	
 
@@ -227,7 +227,7 @@ def teman(nunu):
         ys.close()
         jalan('\n\n %s[%s✓%s] SUCCESSFULLY DUMP ID FROM FRIEND'%(N,H,N))
         print ' [%s•%s] COPY THE OUTPUT FILE >> ( %s%s%s )'%(O,N,M,cin,N)
-        os.system('echo "═════════════════════════════════════════════" | lolcat -a -d 2 -8')
+        os.system('echo "═════════════════════════════════════════════" | lolcat -a -d 2 -s 50')
         raw_input(' [%s ENTER%s ] '%(O,N));mr_error()
     except (KeyError,IOError):
         os.remove(cin)
@@ -254,7 +254,7 @@ def publik(nunu):
         ys.close()
         jalan('\n\n %s[%s✓%s] SUCCESSFULLY DUMP ID FROM PUBLIC FRIEND'%(N,H,N))
         print ' [%s•%s] COPY THE OUTPUT FILE >> ( %s%s%s )'%(O,N,M,knt,N)
-        os.system('echo "═════════════════════════════════════════════" | lolcat -a -d 2 -8')
+        os.system('echo "═════════════════════════════════════════════" | lolcat -a -d 2 -s 50')
         raw_input(' [%s ENTER%s ] '%(O,N));mr_error()
     except (KeyError,IOError):
         os.remove(knt)
@@ -282,7 +282,7 @@ def followers(nunu):
         ys.close()
         jalan('\n\n %s[%s✓%s] SUCCESSFULLY DUMP ID FROM PUBLIC FRIEND'%(N,H,N))
         print ' [%s•%s] COPY THE OUTPUT FILE >> ( %s%s%s )'%(O,N,M,ah,N)
-        os.system('echo "═════════════════════════════════════════════" | lolcat -a -d 2 -8')
+        os.system('echo "═════════════════════════════════════════════" | lolcat -a -d 2 -s 50')
         raw_input('%s [%s ENTER%s ] '%(N,O,N));mr_error()
     except (KeyError,IOError):
         os.remove(ah)
@@ -310,7 +310,7 @@ def postingan(nunu):
         ys.close()
         jalan('\n\n %s[%s✓%s] SUCCESSFULLY DUMP ID FROM LIKE POST'%(N,H,N))
         print ' [%s•%s] COPY THE OUTPUT FILE >> ( %s%s%s )'%(O,N,M,ahh,N)
-        os.system('echo "═════════════════════════════════════════════" | lolcat -a -d 2 -8')
+        os.system('echo "═════════════════════════════════════════════" | lolcat -a -d 2 -s 50')
         raw_input('%s [%s ENTER%s ] '%(N,O,N));mr_error()
     except (KeyError,IOError):
         os.remove(ahh)
